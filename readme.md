@@ -40,7 +40,7 @@ We'll elaborate on all of these - except Booleans - talk about how they differ i
 
 From the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction): "JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements...Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation."
 
-#### What are we working with? Codealong (20 min)
+#### What are we working with? Catch Up (20 min)
 
 For this lesson, we're going to use the Chrome Developer Tools Console shell.  Open a Chrome window and type `cmd+alt+j` to open the console.
 
@@ -288,7 +288,7 @@ JavaScript distinguishes between:
 - `null` a value that indicates a deliberate non-value
 - `undefined` indicates an uninitialized value — that is, a value that hasn't even been assigned yet
 
-## Variables and Keywords - Codealong (10 mins)
+## Variables and Keywords - Catch Up (10 mins)
 
 Variables are used to store data types into the memory of the computer so that they can be referenced later.
 
@@ -399,7 +399,7 @@ friend.length
 ```
 
 
-## Working with Arrays - Codealong (15 mins)
+## Working with Arrays - Catch Up (15 mins)
 
 Using the JavaScript Keyword `new`, is one way of creating arrays:
 
@@ -478,7 +478,7 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for different objects (like Math, Date, String, et c).
 
-## Iterating through an array - Codealong (10 mins)
+## Iterating through an array - Catch Up (10 mins)
 
 Iterating through the elements of an array, one at a time, is a very common practice in programming.
 
