@@ -38,30 +38,27 @@ console.log("Question 4: " + q4);
 
 /**
  * Arrays + Iteration
- * Most of your answers should be stored in variables called q1, q2 etc.. and the variables printed to the console.
-
-    (i.e) console.log("Question 1" + q1)
  */
 
 /**
- * Question 1
+ * Question 5
  * Create an array of numbers using 1,2,3, and 4 as values. Use forEach to increase each value by 1 and store the value back in the array.
 The end result should be an array of numbers with values 2,3,4,5
  */
-q1 = [1,2,3,4];
-q1.forEach(function(element,index){
-    q1[index]=++element;
+q5 = [1,2,3,4];
+q5.forEach(function(element,index){
+    q5[index]=++element;
 });
-console.log("Question 1: " + q1);
+console.log("Question 5: " + q5);
 
 
 /**
- * Question 2
- * Using the array from Question 1, find the average of the numbers in the array (average=sum of all numbers/number of numbers). Store the average in q2.
+ * Question 6
+ * Using the array from Question 5, find the average of the numbers in the array (average=sum of all numbers/number of numbers). Store the average in q6.
  */
-q2 = 0;
-q1.forEach(function(element,index){
-    q2+=element;
+q6 = 0;
+q5.forEach(function(element,index){
+    q6+=element;
 });
-q2=q2/q1.length;
-console.log("Question 2: " + q2);
+q6=q6/q5.length;
+console.log("Question 6: " + q6);
