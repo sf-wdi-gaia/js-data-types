@@ -13,9 +13,8 @@
 ### Preparation
 *Before this lesson, students should already be able to:*
 
-- Describe briefly what javascript is
-- Be comfortable with a text editor
-
+- Describe briefly what JavaScript is
+- Be comfortable with a text editor such as SublimeText or Atom
 
 
 ## What is a data type? Intro (5 mins)
@@ -38,11 +37,11 @@ We'll elaborate on all of these - except Booleans - talk about how they differ i
 
 #### Working with data in JavaScript
 
-From the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction): "JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements...Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation."
+From the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction): "JavaScript contains a standard library of objects, such as `Array`, `Date`, and `Math`, and a core set of language elements such as operators, control structures, and statements...Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation."
 
 #### What are we working with? Demo (20 min)
 
-For this lesson, we're going to use the Chrome Developer Tools Console shell.  Open a Chrome window and type `cmd+alt+j` to open the console.
+For this lesson, we're going to use the Chrome Developer Tools Console shell.  Open a Chrome window and type `cmd+opt+j` to open the console.
 
 #### typeof()
 
@@ -226,7 +225,7 @@ This will be important later when we're taking user input from the web and using
   </summary>
 
 ```javascript
-parseInt("fa4542", 16);
+parseInt("FA4542", 16);
 => 16401730
 
 parseInt("111", 2);
@@ -303,7 +302,7 @@ var a;
 => undefined
 ```
 
-So lets try assigning a value to variable:
+So let's try assigning a value to variable:
 
 ```javascript
 var name = "Alex";
@@ -345,7 +344,7 @@ In Javascript we just discussed two types of values we can use. We call these va
 ```javascript
 (1).toString()
 => "1"
-/**
+/*
   be careful though,
   since numbers can be floats
   javascript might
@@ -361,7 +360,7 @@ In Javascript we just discussed two types of values we can use. We call these va
 ## Arrays - Demo (5 mins)
 
 Unfortunately, strings and numbers are not enough for most programming purposes.
-What is needed are collections of data that we can use efficiently, Arrays.
+What is needed are structures of data that we can use efficiently, such as Arrays.
 
 Arrays are great for:
 
@@ -466,8 +465,6 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 - `a.toString()` - Returns a string with the `toString()` of each element separated by commas.
 
-- `a.pop()` - Removes and returns the last item.
-
 - `a.push(item1, ..., itemN)` - `Push` adds one or more items to the end.
 
 - `a.reverse()` - Reverse the array.
@@ -476,7 +473,9 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 - `a.unshift([item])` - Prepends items to the start of the array.
 
-Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for different objects (like Math, Date, String, et c).
+- `a.pop()` - Removes and returns the last item.
+
+Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for different objects (like Math, Date, String, etc).
 
 ## Iterating through an array - Demo (10 mins)
 
@@ -522,7 +521,6 @@ Here are some other iterator methods for you to research and practice with:
 - `Array.some()`
 - `Array.filter()`
 - `Array.map()`
-
 
 
 ## Independent Practice (15 minutes)
