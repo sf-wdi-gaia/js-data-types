@@ -13,7 +13,7 @@
 // Your code here
 
 var q1 = ["image1.png", "image2.png", "image3.png"];
-
+console.log ("Question 1: " + q1);
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array in variable q2.
@@ -22,6 +22,7 @@ var q1 = ["image1.png", "image2.png", "image3.png"];
 // Your code here
 
 var q2 = q1[0];
+console.log ("Question 2: " + q2);
 
 /**
  * Question 3
@@ -31,6 +32,7 @@ var q2 = q1[0];
 // Your code here
 
 var q3 = q1.length;
+console.log ("Question 3: " + q3);
 
 /**
  * Question 4
@@ -41,6 +43,7 @@ var q3 = q1.length;
 // Your code here
 
 var q4 = q1[q1.length - 1];
+console.log ("Question 4: " + q4);
 
 
 // ____________________________________________________________________________
@@ -63,6 +66,8 @@ q5.forEach(function(value, index) {
     q5[index] = value + 1;
 })
 
+console.log ("Question 5: " + q5);
+
 /**
  * Question 6
  * Using the array from Question 5, find the average of the numbers in the array (average=sum of all numbers/number of numbers). Store the average in q6.
@@ -74,3 +79,5 @@ q5.forEach(function(value, index) {
 var q6 = q5.reduce(function(a, b) {
     return a + b;
 }, 0) / q5.length
+
+console.log ("Question 6: " + q6);
