@@ -12,12 +12,16 @@
 
 // Your code here
 
+var q1 = ["image1.png", "image2.png", "image3.png"];
+
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array in variable q2.
  */
 
 // Your code here
+
+var q2 = q1[0];
 
 /**
  * Question 3
@@ -26,6 +30,8 @@
 
 // Your code here
 
+var q3 = q1.length;
+
 /**
  * Question 4
  *  Using the array from Question 1, store the last element of the array in variable q4. Hint: How can we get the number of elements in the array?
@@ -33,6 +39,8 @@
 
 
 // Your code here
+
+var q4 = q1[q1.length - 1];
 
 
 // ____________________________________________________________________________
@@ -49,6 +57,11 @@ The end result should be an array of numbers with values 2,3,4,5
 
 // Your code here
 
+var q5 = [1, 2, 3, 4]
+
+q5.forEach(function(value, index) {
+    q5[index] = value + 1;
+})
 
 /**
  * Question 6
@@ -57,3 +70,7 @@ The end result should be an array of numbers with values 2,3,4,5
 
 
 // Your code here
+
+var q6 = q5.reduce(function(a, b) {
+    return a + b;
+}, 0) / q5.length
