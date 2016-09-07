@@ -1,0 +1,1 @@
+var q1=["image1.png","image2.png","image3.png"],q2=q1[0],q3=q1.length;q4=q1[q1.length-1];
