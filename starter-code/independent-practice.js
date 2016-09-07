@@ -11,13 +11,17 @@
  */
 
 // Your code here
-
+var q1 = ["image1.png","image2.png","image3.png"];
+console.log(q1)
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array in variable q2.
  */
 
 // Your code here
+var q2 = q1[0];
+console.log(q2);
+
 
 /**
  * Question 3
@@ -25,6 +29,7 @@
  */
 
 // Your code here
+var q3 = q1.length;
 
 /**
  * Question 4
@@ -33,6 +38,7 @@
 
 
 // Your code here
+var q4 = q1.pop();
 
 
 // ____________________________________________________________________________
@@ -48,6 +54,18 @@ The end result should be an array of numbers with values 2,3,4,5
  */
 
 // Your code here
+var number = [1,2,3,4];
+number.forEach(index, num)
+
+function add(array){
+  for(var i=0; i < array.length; i++){
+    array.push(array[i] + 1);
+  }
+  console.log(array)
+  return array
+};
+number.forEach(add);
+console.log(number)
 
 
 /**
@@ -55,5 +73,10 @@ The end result should be an array of numbers with values 2,3,4,5
  * Using the array from Question 5, find the average of the numbers in the array (average=sum of all numbers/number of numbers). Store the average in q6.
  */
 
+var total = 0;
+for(var i = 0; i < array.length; i++){
+  total += number[i];
+}
+var q6 = total/ number.length;
 
 // Your code here
